@@ -2,7 +2,7 @@ fastapi==0.110.0  # Added FastAPI for API backend
 uvicorn==0.29.0  # Added Uvicorn to run FastAPI
 matplotlib==3.10.0
 numpy==1.26.4
-opencv-python==4.11.0.86
+# opencv-python==4.11.0.86
 pandas==2.2.3
 Pillow==11.1.0
 plotly==6.0.0
@@ -13,3 +13,4 @@ torch==2.6.0
 torchvision==0.21.0
 transformers==4.49.0
 ultralytics==8.3.76
+opencv-python-headless==4.11.0.86  # Replace opencv-python with this
